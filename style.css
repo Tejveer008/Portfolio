@@ -1,9 +1,23 @@
 /* hero background image */
+body{
+    background-color: #071952;
+}
 .bgimage {
     height:100vh;
     background: url('mypic.jpeg');
     background-size:cover;
     position:relative;
+}
+.text-center {
+    color:#088395;
+}
+
+.text-center:hover {
+    color:#088395;
+    text-decoration:underline;
+}
+#about{
+color: #EBF4F6;
 }
 /* text css above hero image*/
 .hero_title {
@@ -35,33 +49,37 @@
     width: 100%;
 }
 .card-title {
+    color: #EBF4F6;
     text-align: center;
 }
+.card-text{
+    color: #EBF4F6;
+}
 .card:hover .servicesIcon {
-    color: #008000;
+    color: #37B7C3;
 }
 .servicesText:hover {
-    border: 1px solid #008000;
+    border: 1px solid #EBF4F6;
+}
+.card-body{
+    background-color: #088395;
 }
 
 /* Dark background color when scrolled */
 .navbar.navbarDark {
-    background-color: #333; /* Change this to your desired dark color */
+    background-color: #37B7C3; /* Change this to your desired dark color */
 }
 /* social media icons styling */
 .social-icons {
-    font-size: 36px;
+    font-size: 30px;
     cursor: pointer;
 }
-.fa-telegram:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-github:hover {
-    color: #f4f8f4;
-}
-.fab {
-    color: #000000;
-}
+
+
 /* footer styling */
 #footer {
-    background-color: #808080;
+    margin-top: 3rem;
+    background-color: #37B7C3;
     text-align: center;
 }
 
@@ -76,9 +94,10 @@
 .nav-link{
     color: white;
 }
-.navbar-brand{
+/* .navbar-brand{
     color: white;
-}
+} */
 .nav-link:hover{
-    color: #1a1d1df3;
+    color: #f4f8f4;
+    text-decoration: underline;
 }
